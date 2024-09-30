@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Demo HTML DOM + Javascript</title></head>
+    <body>
+        <button onclick="showBandung()">Bandung</button>
+        <span onclick="showJakarta()" style="border:1px solid black">Jakarta</span>
+        <a href="#" onmouseover="showSurabaya()">Surabaya</a>
+
+        <dic id="isi" style="border:1px solid black;font-size:28pt">&nbsp</dic>
+
+        <script>
+            function showBandung(){
+                var isi=document.getElementById("isi");
+                isi.innerHTML="Bandung adalah ibukota Provinsi Jawa barat<br>";
+                isi.style.backgroundColor="blue";
+                isi.syle.color="white";
+            }
+            function showJakarta(){
+                var isi=document.getElementById("isi");
+                isi.innerHTML="Jakarta adalah ibukota Republik Indonesia<br>";
+                isi.style.backgroundColor="red";
+                isi,style.color="yellow";
+            }
+            function showSurabaya(){
+                var isi=document.getElementById("isi");
+                isi.innerHTML="Surabaya adalah ibukota Propinsi Jawa Timur<br>";
+                isi.style.color="cyan";
+            }
+        </script>
+    </body>
+</html>

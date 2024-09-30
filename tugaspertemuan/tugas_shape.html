@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shape</title>
+    <style>
+        body{
+            background: beige;
+            color : maroon;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shotcut icon" type="n-icon" href="../img/logo_n.jpeg">
+    </head>
+    </head>
+    </head>
+    <body>
+        <header>
+            <div class = "gambar">
+                <img class="logo" src="../img/logo_n.jpeg" alt="logo" >
+            </div>
+            <nav>
+                <ul class="nav_link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../css/style.css">Profil</a></li>
+                </ul>
+                <a class="cta" href="../navbar/contact.html"><button>Contact</button></a>
+            </nav>
+        </header>
+
+        <a class="home-button" href="index.html"><button>Back To Home Page</button></a>
+    
+        <h1>Peretemuan 3 - Shape</h1>
+        <p>membuat shape dengan canvas, pada objek kali ini saya membuat bentuk persegi, lingkaran dan line</p>
+
+        <div class="canvas-shape">
+            <div class="sqngrad">
+                <canvas id="square" width="300" heigth="300"></canvas>
+
+                <script>
+                    var sq = document.getElementById('square').getContext('2d');
+
+                    sq.fillStyle = "pink";
+                    sq.rect(50, 50, 150, 200);
+                    sq.fill();
+                </script>
+            </div>
+            <div class="segitiga"> </div>
+            <div class="vertical-line">
+            </div>
+
+        </div>
+
+        
+
+
+        <style>
+            h1{
+                margin-top: 50px;
+                margin-left: 100px;
+            }
+            h3{
+                margin-top: 50px;
+                margin-left: 100px;
+            }
+            p{
+                margin-left: 100px;
+            }
+            canvas{
+                margin-left:70px;
+                background:add;
+            }
+            .canvas-shape{
+                display: flex;
+                margin-top: 50px;
+            }
+            .vertical-line{
+                width:1px;
+                height: 100px;
+                background-color: black;
+                margin: center;
+            }
+            .segitiga{
+                height: 0;
+                width: 0;
+                background-color: transparent;
+                border: 70px solid transparent;
+                border-left: 35px solid palevioletred;
+            }
+        </style>
+    </body>
+</html>

@@ -1,0 +1,281 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: pink;
+}
+
+#header {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    height: 80px;
+    line-height: 70px;
+    display: flex;
+    background-color: palevioletred;
+}
+
+#header li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: maroon;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#header img{
+    margin-left: 25px;
+    margin-top: 10px;
+    clip-path: circle();
+    width: 50px;
+    height: 50px;
+}
+
+#header #site_name {
+    text-align: left;
+    width: 680px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+/* for a backgroung box- */
+#home{
+    margin-top: 100px;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: beige;
+    border-radius: 50px;
+    color: maroon;
+    display: flex;
+}
+
+#home .personal_photo{
+    width: 300px;
+    height: 300px;
+}
+
+#home .personal_photo img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle();
+}
+
+#home h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 30px;
+    padding:0;
+    font-size: 80px;
+}
+
+#home h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 30px;
+    padding:0;
+    font-size: 40px;
+}
+
+#home .hello_text{
+    margin-left: 20px;
+}
+
+#about{
+    margin-top: 100px;
+    width: 90%;
+    height: 430px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: beige;
+    border-radius: 50px;
+}
+
+#about .about_text .paragraph_1 h4{
+    padding:0px;
+    margin:0px;
+    color: palevioletred;
+}
+
+#about .about_text .paragraph_2 h4{
+    padding: 0px;
+    margin: 0px;
+    color: palevioletred;
+}
+
+#about .about_text .paragraph_2{
+    padding:0px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+#about .about_tittle .about_logo{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+#about .about_tittle h1{
+    padding: 0px;
+    margin: 0px;
+    color: maroon;
+}
+
+#about .about_tittle{
+    display: flex;
+    justify-content: center;
+}
+
+#services{
+    margin-top: 100px;
+    width: 90%;
+    height: 450px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: beige;
+    border-radius: 50px;
+    color: maroon;
+}
+
+#sevices .card_servis .card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+#services .servis_tittle{
+    display: flex;
+}
+
+#sevices .servis_tittle .logo_task .fa-list-check{
+    font-size: 300000px;
+}
+
+#services .card_servis .card{
+    width:325px;
+    background-color:#FFDBD1 ;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    margin: 20px;
+    flex-direction: row;
+}
+#services .card_servis{
+    display: flex;
+    justify-content: center;
+}
+
+#services .card_servis .card .content{
+    margin-top: 20px;
+}
+
+#portofolio{
+    margin-top: 100px;
+    width: 90%;
+    height:600px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: beige;
+    border-radius: 50px;
+    color: maroon;
+}
+
+#portofolio .card_porto .card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+#portofolio .porto_tittle{
+    display: flex;
+}
+
+#portofolio .porto_tittle .logo_task .fa-list-check{
+    font-size: 300000px;
+}
+
+#portofolio .card_porto .card{
+    width:325px;
+    background-color:#FFDBD1 ;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    margin: 20px;
+    flex-direction: row;
+}
+
+#portofolio .card_porto{
+    display: flex;
+
+}
+
+#portofolio .card_porto .card .content{
+    margin-top: 20px;
+}
+
+#portofolio .card_porto .card .content img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+#contact{
+    margin-top: 100px;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: beige;
+    border-radius: 50px;
+    color: maroon;
+}
+
+#contact input[type="text"] {
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    float: left;
+    margin-left: 80px;
+    border: none;
+}
+
+#contact textarea {
+    float: left;
+    width: 250px;
+    height: 35px;
+    margin-left: 20px;
+    border: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#contact input [type="submit"] {
+    float: left;
+    margin-left: 20px;
+    height: 35px;
+    width: 100px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+

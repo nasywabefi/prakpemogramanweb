@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Nasywa's Personal Website (SPA)</title>
+        <link rel="shotcut icon" type="n-icon" href="../../img/logo_n.jpeg">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../../css/style2.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script type="text/javascript">
+            function scrollto(div){
+                $('html, body').animate({
+                    scrollTop: $("#"+div).offset().top
+                },'slow');
+            }
+        </script>
+
+    </head>
+    <body>
+        <div id="header">
+            <img class="logo" src="../../img/logo_n.jpeg" alt="logo" >
+            <li id="site_name">Nasywa Befiputri</li>
+            <li onclick="scrollto('home');">HOME</li>
+            <li onclick="scrollto('about');">ABOUT</li>
+            <li onclick="scrollto('services');">SERVICES</li>
+            <li onclick="scrollto('portofolio');">PORTOFOLIO</li>
+            <li onclick="scrollto('contact');">CONTACT</li>
+        </div>
+
+        <div id="home">
+            <!-- just for hello site -->
+            <div class="personal_photo">
+                <img class="logo" src="../../img/foto_nasy.jpg" alt="logo" >
+            </div>
+            <div class="hello_text">
+                <h3 align="left">Hello, My name is</h3>
+                <h1 align="left">Nasywa Befiputri</h1>
+                <h3 align="left">I’am a Developer</h3>
+            </div>
+        </div>
+
+        <div id="about">
+            <!-- about me, discribe some thing abt me here -->
+            <div class="about_tittle">
+                <div class="about_logo">
+                    <img src="../../img/icon/icon_person_maroon.png" alt="">
+                </div>
+                <h1>About Me</h1>
+            </div>
+
+            <div class="about_text">
+                <div class="paragraph_1">
+                    <h4>I am a 4th semester informatics engineering student at Prof.Dr.</h4>
+                    <h4>Hamka mahammadiyah university, jakarta. I am passionate about</h4>
+                    <h4>pursuing my major in informatics.i like to learn, specially </h4>
+                    <h4>something that i never know before. I learned many things in </h4>
+                    <h4>college about my major and other scientific fields too. Im active </h4>
+                    <h4>in organization olso social media as a content creator.</h4>
+                <div>
+
+                <div class="paragraph_2">
+                    <h4>I can work with other people and can communicate my ideas in</h4>
+                    <h4>the team, solve problems together, logical thinking and learn </h4>
+                    <h4>many new things. I adapt quickly and can adapt to new </h4>
+                    <h4>environments in a relatively short period of time.</h4>
+                </div>
+            </div>  
+        </div>
+
+        <div id="services">
+
+            <div align="center" class="servis_tittle">
+                    <!-- <div class="logo_servis">
+                        <i class="fa-solid fa-paw"></i>
+                    </div> -->
+                    <div class="tittle_servis">
+                        <h2> Services</h2>
+                    </div>
+            </div>
+
+            <div align="center" class="card_servis">
+                <div class="card">
+                    <div class="content">
+                        <i class="fa-solid fa-paw"></i>
+                        <h4>Web Design</h4>
+                        <p> Dapat merencanakan sistem yang efisien untuk penggunaan user</p>
+                        <p> dengan mengonbinasikan seni dan fungsi yang yang maximal dalam waktu yang bersamaan</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <i class="fa-solid fa-paw"></i>
+                        <h4>Laravel</h4>
+                        <p>mengembangkan sistem berbasis laravel</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <i class="fa-solid fa-paw"></i>
+                        <h4>Project Leader</h4>
+                        <p>memimpin sebuah project dari awal. dimulai dari perancangan sistem sampai pengembangan lanjutan yang mengimpementasi SLC yang relefan untuk sistem tersebut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="portofolio">
+            <div align="center" class="porto_tittle">
+                <!-- <div class="logo_servis">
+                    <i class="fa-solid fa-paw"></i>
+                </div> -->
+                <div class="tittle_servis">
+                    <h2> Services</h2>
+                </div>
+            </div>
+            <!-- your resent projects -->
+            <div align="center" class="card_porto">
+                <div class="card">
+                    <div class="content">
+                        <i class="fa-solid fa-paw"></i>
+                        <img src="../../img/hackfest_porto.png">
+                        <h4>Hackfest</h4>
+                        <p> Berperan menjadi Husler</p>
+                        <p> merencanakan sistem, mendampingin proses pembentukan sistem, sapain pitching</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <i class="fa-solid fa-paw"></i>
+                        <img src="../../img/inventory_porto.png">
+                        <h4>Sistem Inventory</h4>
+                        <p>mengembangkan sistem berbasis laravel yang menggunakan konsep MVC untuk inventory</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <!-- contact person -->
+            <h1>punya pertanyaan lebih lanjut yang ingin di sikusikan lebih lanjut?</h1>
+            <h3>Contact Me!</h3>
+            <input type="text" placeholder="Name">
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="send">
+        </div>
+</body>
+</html>

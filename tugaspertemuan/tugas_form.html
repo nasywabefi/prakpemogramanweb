@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+
+    <head>
+    <title> Membuat Form </title>
+   
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shotcut icon" type="n-icon" href="../img/logo_n.jpeg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <body>
+        <header>
+            <div class = "gambar">
+                <img class="logo" src="../img/logo_n.jpeg" alt="logo" >
+            </div>
+            <div class="topper">
+                
+            </div>
+            <nav>
+                <ul class="nav_link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../navbar/profil.html">Profil</a></li>
+                </ul>
+                <a class="cta" href="../navbar/contact.html"><button>Contact</button></a>
+            </nav>
+        </header>
+
+        <div class="judul">
+            <h1> Petermuan 4 - Form</h1>
+            <p> Membuat form untuk input Nama Depan, Nama Belakang, NIM, Tempat & Tanggal Lahir dan Prodi</p>
+        </div>
+        
+        <br>
+
+        <form>
+            <label for="firstname" >First Name </label>
+            <input type="text" id="firstname" name="First Name" placeholder="Firts Name">
+
+            <label for="lastname" > Last Name </label>
+            <input type="text" id="lastname" name="Last Name" placeholder="Last Name">
+
+            <label for="nim"> NIM </label>
+            <input type="text" id="nim" name="NIM" placeholder="NIM">
+
+            <label for="jurusan" > Program Studi: </label>
+            <select name="jurusan">
+                <option value="TI">Teknik Informatika</option>
+                <option value="TE">Tektik Elektro</option>
+                <option value="TM">Teknik Mesin</option>
+                <option value="STI">Sistem Teknologi Informasi</option>
+            </select>
+            <button type="submit" name="submit">Submit</button>
+        </form>
+
+        <style>
+            p{
+                margin-left: 100px;
+            }
+            form{
+                margin-left: 100px;
+                width: 300px;
+            }
+            input{
+                width: 100%;
+            }
+            textarea{
+                resize: vertical;
+                max-height: 300px;
+            }
+            input{
+                outline: none;
+                border: 1px solid #ddd;
+            }
+            input:focus{
+                box-shadow: 0 0 4px pink;
+                border: 1px solid palevioletred;
+            }
+            :placeholder{
+                color:red;
+                opacity: 1;
+                
+            }
+            :-ms-input-placeholder{
+                color:red;
+            }
+            ::-ms-input-placeholder{
+                color:red;
+                opacity: 1;
+            }
+        </style>
+        
+    </body>
+</html>
+
